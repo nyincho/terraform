@@ -35,7 +35,7 @@ EOF
 # Attaching IAM Policy to IAM Role
 resource "aws_iam_role_policy_attachment" "test-attach" {
   role       = aws_iam_role.VPCFlowLog_Role.name
-  policy_arn = "arn:aws:iam::130859300815:policy/VPCFlowLog_Rolepolicy"
+  #policy_arn = "arn:aws:iam::130859300815:policy/VPCFlowLog_Rolepolicy"
 }
 
 # Create CloudWatch Logs group
